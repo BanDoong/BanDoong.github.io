@@ -116,15 +116,13 @@ content:
     content:
       - layout: top-middle
         title: Pusan National University
-        caption: Mar. 2013 - Feb. 2019
-        sub_title: BS Mechanical Engineering
-#    layout: list
-#    content:
-      - layout: top-middle
-        title: Pusan National University
         caption: Mar. 2021 - Present (Expected Graduation Date Feb. 2023)
         sub_title: MS Computer Science
 
+      - layout: top-middle
+        title: Pusan National University
+        caption: Mar. 2013 - Feb. 2019
+        sub_title: BS Mechanical Engineering
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -136,16 +134,16 @@ content:
         sub_title: Junior Researcher
         caption: Jan. 2020 - Feb. 2021
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
+#      Look at this cool image  
 #      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
