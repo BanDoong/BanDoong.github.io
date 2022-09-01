@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Seungkyu Kim
 title: AI Researcher
-email: aszass5387@gmail.com
+email: aszass@naver.com
 website: www.github.com/BanDoong/
 
 # Dark Mode (true/false/never)
@@ -34,6 +34,10 @@ linkedin_username: seungkyu-kim-87b724189
 #- title: itsgoingto.be
 #  icon: fas fa-globe
 #  url: https://www.itsgoingto.be
+additional_links:
+- title: tistory
+  icon: fas fa-blog
+  url: https://deepforme.tistory.com/
 
 
 # - title: another link
@@ -50,9 +54,11 @@ linkedin_username: seungkyu-kim-87b724189
 # about_title: About Me
 about_profile_image: images/kim_profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Seungkyu and I'm currently studying AI for Computer vision. Now I'm looking for a job.
+  Hi, my name's Seungkyu and I'm currently studying AI for Computer vision.
 
   I am most skilled in: <mark>Pytorch</mark> and <mark>Computer Vision</mark>
+
+  * Now I'm looking for a job.
 
 content:
   - title: Projects # Title for the section
@@ -66,13 +72,11 @@ content:
           - title:  BanDoong/Diagnosis-Alzheimer-s-Disease
             icon: fab fa-github
             url: github.com/BanDoong/Diagnosis-Alzheimer-s-Disease
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: > 
           Currently Ongoing Project. Will be submitted to Journal.
         description: | # this will include new lines to allow paragraphs
           Alzheimer's Disease is a severe problem in the world. There is no treatment for stopping or reverse to healthy. Therefore, Early Diagnosis is Crucial. I developed new model for Early Diagnosis of Alzheimer's Disease using Muli-Modal Image Data.
+
       - layout: top-middle
         title: Water Boundary Segmentation in Satellite Images.
         additional_links:
@@ -83,22 +87,44 @@ content:
           Comparative Study of Deep Learning Model for Semantic Segmentation of Water System in SAR Images of KOMPSAT-5, MJ Kim, SK Kim, DH Lee, JK Gahm, Journal of Korea Multimedia Society, Vol 25., pp. 206-214, 2022
         description: | 
           In order to measure the extent of damage from floods and droughts, satellite images are used. For efficiently identify extent of the floods and droughts, We applied various Deep Learning Model for semantic segmentation, and compared models. This Research was submitted to Journal.
+
       - layout: top-middle
         title: Self-Supervised Learning for Alzheimer's Disease
-        additonal_links:
-          - title: BanDoong/Self-Supervised-Learning-for-Early-AD
+        additional_links:
+          - title:  BanDoong/Self-Supervised-Learning-for-Early-AD
             icon: fab fa-github
             url: github.com/BanDoong/Self-Supervised-Learning-for-Early-AD
+        quote: > 
+          Jan. 2022 - March. 2022
         description: | 
           In medical feild, There are relatively few labeled image data. Therefore, Learning without Label is crucial. I used SimCLR, BYOL to Self-Supervised Leanring for Early Diagnosis of Alzheimer's Disease.
+
       - layout: top-middle
         title: Prediction of Pawpularity (Attractiveness of Pictures)
-        additional links:
-          - title: BanDoong/PetFinder-Prediction-Pawpularity
+        additional_links:
+          - title:  BanDoong/PetFinder-Prediction-Pawpularity
             icon: fab fa-github
-            url: https://github.com/BanDoong/PetFinder-Prediction-Pawpularity
+            url: github.com/BanDoong/PetFinder-Prediction-Pawpularity
+        quote: > 
+          Oct. 2021 - Dec. 2021
         description: | 
           PetFinder is Malaysia's leading animal welfare platform and they adopt animals. This project aim to make animal happily adopt using predict how much Pictures are attractive. Therefore, I used ViT, ResNet50, EfficientNet and ensemble EfficientNet and ViT.
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Pusan National University
+        caption: Mar. 2013 - Feb. 2019
+        sub_title: BS Mechanical Engineering
+#    layout: list
+#    content:
+      - layout: top-middle
+        title: Pusan National University
+        caption: Mar. 2021 - Present (Expected Graduation Date Feb. 2023)
+        sub_title: MS Computer Science
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -109,20 +135,6 @@ content:
         # link_text: boringcompany.com
         sub_title: Junior Researcher
         caption: Jan. 2020 - Feb. 2021
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Pusan National University
-        caption: 2013.03 - 2019.02
-        sub_title: BS Mechanical Engineering
-#    layout: list
-#    content:
-      - layout: top-middle
-        title: Pusan National University
-        caption: 2021.03 - Present (Expected Graduation Date 2023.02)
-        sub_title: MS Computer Science
 
   - title: A Little More About Me
     layout: text
