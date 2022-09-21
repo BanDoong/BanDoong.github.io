@@ -61,10 +61,10 @@ about_content: | # this will include new lines to allow paragraphs
   * Now I'm looking for a job.
   This is my portfolio 
 
-  additional_link:
-  - title: portfolio
-    icon: fab fa-github
-    url: https://bandoong.github.io/portfolio/
+additional_link:
+- title: portfolio
+  icon: fab fa-github
+  url: https://bandoong.github.io/portfolio/
 
 content:
   - title: Projects # Title for the section
