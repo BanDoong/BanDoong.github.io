@@ -59,6 +59,10 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Pytorch</mark> and <mark>Computer Vision</mark>
 
   * Now I'm looking for a job.
+  This is my portfolio 
+  additional_link:
+  - title: portfolio
+    url: https://bandoong.github.io/portfolio/
 
 content:
   - title: Projects # Title for the section
